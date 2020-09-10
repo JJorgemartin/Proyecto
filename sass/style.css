@@ -53,7 +53,7 @@
   z-index: 20;
   position: relative;
   height: 519px;
-  margin-top: -120px;
+  margin-top: -80px;
 }
 
 .celular img {
@@ -337,17 +337,13 @@
 
 footer {
   background-color: white;
-  position: absolute;
-  z-index: 20;
 }
 
 footer p {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 14px;
   color: #060a24;
-  margin-top: 24px;
-  margin-left: 46px;
-  margin-right: 46px;
+  margin: 24px 46px;
 }
 
 footer div {

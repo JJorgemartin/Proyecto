@@ -1,14 +1,11 @@
 footer{
     background-color: white;
-    position: absolute;
-    z-index: 20;
     p{
         font-family: 'IBM Plex Mono', monospace;
         font-size: 14px;
         color: $colorLetras;
-        margin-top: 24px;
-        margin-left: 46px;
-        margin-right: 46px;
+        margin: 24px 46px;
+        
     }
     div{
         display: flex;
