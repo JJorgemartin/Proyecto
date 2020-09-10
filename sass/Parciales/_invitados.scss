@@ -1,0 +1,19 @@
+.invitados{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /* align-items: stretch; */
+    .foto-invitadas{
+        width: 100%;
+    }
+    h2{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: $colorLetras;
+        margin-left: 16px;
+        margin-bottom: 14px;
+        font-weight: 350;
+        
+
+    }
+}

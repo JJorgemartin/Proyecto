@@ -1,0 +1,47 @@
+.cabecera{
+    margin-top: 24px;
+    h1{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: $colorLetras;
+        font-weight: 350;
+        margin-left: 16px;
+        
+    }
+    .titulo{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: $colorLetras;
+        text-decoration: line-through;
+
+    }
+    .punto{
+        display: none;
+    }
+    .aparece{
+        display: none;
+    }
+    p{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 14px;
+        color: $colorLetras;
+        margin: auto;
+        padding: 16px 16px 36px 16px;
+        font-weight: 500;
+    };
+    .boton-mas{
+        font-family: 'IBM Plex Mono', monospace;
+        color: $colorLetras;
+        font-size: 16px;
+        z-index: 30;
+        background-color: $colorButton;
+        height: 48px;
+        width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+        font-weight: 500;
+        border-style: none;
+        margin-bottom: 24px;
+    }
+
+}

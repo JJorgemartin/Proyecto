@@ -1,0 +1,31 @@
+.celular{
+    .div-cel{ 
+        z-index: 20;
+        position: relative;
+        height: 519px;
+        margin-top: -120px; 
+    }
+        img{   
+        height: 90%;
+        width: 90%;
+        margin: 0px 20px;
+        
+    }
+    .venimos{
+        h2{
+            font-family: 'IBM Plex Sans', sans-serif;
+            color: $colorLetras;
+            font-size: 36px;
+            line-height: 42px;
+            font-weight: 400;
+        }
+        p{
+            font-family: 'IBM Plex Mono', monospace;
+            margin: 8px 16px;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+    }
+        
+}

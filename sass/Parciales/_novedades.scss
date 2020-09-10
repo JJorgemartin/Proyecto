@@ -1,0 +1,40 @@
+.novedades{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-top: 42px;
+    background-image: linear-gradient($colorGradiente1, $colorGradiente2);
+
+    .temas-backgound-top{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 10vw;
+
+
+    }
+    h3{
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: white;
+        font-size: 36px;
+        z-index: 50;
+        position: relative;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 54px;  
+        margin-bottom: 36px;               
+    }
+    #boton-episodios{
+        font-family: 'IBM Plex Mono', monospace;
+        color: $colorLetras;
+        font-size: 16px;
+        z-index: 30;
+        background-color: $colorButton;
+        height: 48px;
+        width: 288px;
+        border-style: none;
+        font-weight: 500;
+        margin-bottom: 67px;
+    }
+}

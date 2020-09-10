@@ -1,0 +1,27 @@
+footer{
+    background-color: white;
+    position: absolute;
+    z-index: 20;
+    p{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 14px;
+        color: $colorLetras;
+        margin-top: 24px;
+        margin-left: 46px;
+        margin-right: 46px;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 16px;
+        margin-bottom: 31px;
+    }
+    div i {
+        color: $colorLetras;
+    }
+    
+
+}
+
+

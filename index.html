@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podscast channel</title>
+    <link rel="stylesheet" href="sass/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300&family=IBM+Plex+Sans:wght@300;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8843e54cb3.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img class="logo" src="/Imagenes/logo.svg" alt="logo">
+            <input type="checkbox" id="chk-nav-bar">
+            <ul class="menu-options">
+                <li> <a class="menu-options-links" href="#episodios">EPISODIOS</a></li>
+                <li> <a class="menu-options-links" href="#Nosotros">NOSOTROS</a></li>
+                <li> <a class="menu-options-links" href="#Entrevistas">ENTREVISTAS</a></li>
+                <li><a class="menu-options-links" href="#Topicos">TOPICOS</a></li>
+            </ul>
+            <label for="chk-nav-bar" id="burger-close" class="burger-close">&#x2716;</label>
+            <label for="chk-nav-bar" id="burger-open" class="burger-open"> <span class="hamburger">☰
+            </span></label>
+        </nav>
+    </header>
+    <div class="cabecera">
+        <h1>Hello <span class="titulo">world</span> pale blue dot<span class="punto">.</span></h1>
+        <p>Un podcast que explora el mundo de la <span class="parrafo">programación</span><span class="aparece"> y la tecnologia</span>. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <div >
+            <button class="boton-mas" type="button">CONOCÉ MÁS</button>
+        </div>
+    </div>
+
+    <section class="spotify" id="episodios">
+        <svg
+        class="temas-backgound-top"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none">
+        <polygon fill="white" points="0,0 100,0 0,70" />
+      </svg>
+        <h2>Episodios</h2>
+        <div class="div-spotify">
+            <iframe class="spotify-1" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+                ></iframe>
+            <iframe class="spotify-2" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                ></iframe>
+            <iframe class="spotify-3" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                ></iframe>
+            <iframe class="spotify-4" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                ></iframe>
+        </div>
+        <svg
+        class="temas-backgound-bottom"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none">
+        <polygon fill="white" points="100,100 100,0 0,100" />
+      </svg>
+    </section>
+
+    <section class="celular" id="Entrevistas">
+        <div class="div-cel">
+            <img src="/Imagenes/phone.png" alt="celu">
+        </div>
+        <div class="venimos" >
+            <h2>De dónde venimos</h2>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+            Universe, are challenged by this point of pale light.</p>
+
+            <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+            vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </div>
+    </section>
+
+    <section class="invitados" id="Entrevistas">
+        <h2>Invitadas/os estelares</h2>
+        <div class="seccion-fotos">
+            <img class="foto-invitadas" src="/Imagenes/grace-hopper.png" alt="grace-hopper">
+            <img class="foto-invitadas" src="/Imagenes/Katie-Bouman.png" alt="katie-bouman">
+            <img class="foto-invitadas" src="/Imagenes/Margaret_Hamilton.png" alt="margaret-hamilton">
+            <img class="foto-invitadas" src="/Imagenes/An E.R.A.Univac 1103 computer in the 1950s.png"
+                alt="computer-1950">
+            <img class="foto-invitadas"
+                src="/Imagenes/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                alt="computer-operator">
+            <img class="foto-invitadas" src="/Imagenes/susan-kare.png" alt="susan-kare">
+        </div>
+    </section>
+
+    <section class="parte-iconos" id="Topicos">
+        <h2>Algunos de nuestros temas</h2>
+
+        <img class="icono1" src="/Imagenes/icon1.svg" alt="">
+        <p class="p1"> Trabajo Remoto </p>
+
+        <img class="icono2" src="/Imagenes/icon2.svg" alt="">
+        <p class="p2">Repensando la <br> programación</p>
+
+
+        <img class="icono3" src="/Imagenes/icon3.svg" alt="">
+        <p class="p3">Bases del código</p>
+
+
+        <img class="icono4" src="/Imagenes/icon4.svg" alt="">
+        <p class="p4">Seguridad informática</p>
+
+
+    </section>
+
+
+    <section class="novedades">
+        <svg
+        class="temas-backgound-top"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none">
+        <polygon fill="white" points="0,0 100,0 0,70" />
+      </svg>
+
+        <h3>¿Querés las últimas novedades?</h3>
+        <button id="boton-episodios" type="button">ESCUCHÁ LOS EPISODIOS</button>
+        
+    </section>
+
+    <footer>
+        <p>© 2019— Hello blue pale dot</p>
+        <div>
+            <a href="www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="www.telegram.com" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
