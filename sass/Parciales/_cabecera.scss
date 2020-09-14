@@ -8,6 +8,11 @@
         margin-left: 16px;
         
     }
+    .div-botton{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
     .titulo{
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 36px;
@@ -37,11 +42,9 @@
         background-color: $colorButton;
         height: 48px;
         width: 288px;
-        margin-left: 16px;
-        margin-right: 16px;
         font-weight: 500;
         border-style: none;
-        margin-bottom: 24px;
+        
     }
 
 }
