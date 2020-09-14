@@ -6,7 +6,7 @@
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 36px;
   color: #060a24;
-  font-weight: 350;
+  font-weight: 300;
   margin-left: 16px;
 }
 
@@ -207,10 +207,6 @@
 
 .venimos {
   margin-top: 27px;
-  /*   .p2{
-        padding-top: 8px;
-        margin-bottom: 54px;
-    } */
 }
 
 .venimos h2 {
@@ -219,7 +215,6 @@
   font-size: 36px;
   line-height: 42px;
   margin: 27px 16px 8px 16px;
-  font-weight: 00;
 }
 
 .venimos p {
@@ -326,7 +321,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   justify-items: center;
-  /* align-items: stretch; */
 }
 
 .invitados .foto-invitadas {
@@ -339,7 +333,7 @@
   color: #060a24;
   margin-left: 16px;
   margin-bottom: 14px;
-  font-weight: 350;
+  font-weight: 400;
 }
 
 footer {
@@ -437,7 +431,7 @@ footer div i {
     -ms-grid-column: 1;
     -ms-grid-column-span: 4;
     grid-column: 1/5;
-    font-weight: 375;
+    font-weight: 400;
     font-size: 48px;
   }
   .parte-iconos .icono1 {
